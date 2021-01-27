@@ -31,15 +31,19 @@ Player.prototype.diceRoll = function() {
   if (randomNumber1 === 1) {
     alert("You rolled a 1! Sorry, your turn is over.");
     break;
+
+
   } else {
   updatedScore += randomNumber1;
-  prompt("roll again?")
-   
+  prompt("roll again?")  //replace
+  prompt("hold?")  //replace
+  let hasRolled = true;
     player.diceRoll()
     
   }
     player.diceRoll()
     firstTime = false;
+    let hasRolled = true;
 };
 
 
@@ -47,22 +51,45 @@ Player.prototype.diceRoll = function() {
 //ui logic
 
 // Creates two players
-let playerOne = new Player("Player One");
-let playerTwo = new Player("Player Two");
+
 let currentPlayer = playerOne;
 player1 or player2
 
-// if(player == playerOne)  {
-//   player = playerTwo;
-// }
+
+function playerSwitch()  {
+  if(currentPlayer == playerOne)  {
+    currentPlayer = playerTwo;
+} else {
+  currentPlayer = playerOne;
+}
+}
+
 
 // player.diceRoll;
 
 $(document).ready(function() {
-  $("#").click(function(event){
+
+  let playerOne = new Player("Player One");
+  let playerTwo = new Player("Player Two");
+  let currentPlayer = playerOne;
+  
+  $("#roll").on("click", function(event){
     event.preventDefault();
-      
+    currentPlayer.diceRoll()
+    
+  });
+
+  $("#hold").on("click", function(event){
+    event.preventDefault();
+    
     
   });
 });
 
+//function for program will always start at player 1
+//switches back and forth when a player rolls 1 or holds.
+
+if whatever (player !== 1) {
+
+  $("#hold").show();
+}

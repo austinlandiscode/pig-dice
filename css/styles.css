@@ -39,6 +39,9 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+#hold {
+  display: none;
+}
 /* .btn .btn-danger .btn-lg {
   padding: 30px;
 } */
