@@ -23,7 +23,7 @@ Player.prototype.diceRoll = function() {
   //branch if(2-6) {
     //add number
     //return
-  //}
+  //
 };
 
 let randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
