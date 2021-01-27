@@ -1,39 +1,51 @@
-# _{Application Name}_
+# _Pig Dice Game_
 
-#### _{Brief description of application}_
+#### _Epicoudus practice webpage that allows two players to play a dice game_
 
-#### By _**{List of contributors}**_
+#### By _Sage Sypert, James Wyn, Austin Landis, Diego Salazar, Olha Hizhytska_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _Javascript_
+* _jQuery_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _Github_
+* _Git Bash_
+* _Visual Studio Code_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This is a basic practice webpage that allows two players play Pig Dice with each other. The rules of Pig Dice are as follows:
+
+* _Player rolls two dice._
+* _If one of the dice is a one, the player's turn is over and they receive no points._
+* _If both of the dice are ones, the player's total score is reset to zero and their turn is over._
+* _Otherwise, the total of the two dice is added to the turn score._
+* _At any point the player can "Hold" and their turn score is added to their total score._
+* _First player to 100 wins._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _To view this webpage, follow this link in a modern browser_
+* _You can also use git to make a copy of this project with your terminal by inputting the following commands:  $ cd directory (of your choice), then:  $ git clone https://github.com/sagesypert/pig-dice.git_
+* _Remove all remotes pointing to my directory by typing:  $ git remote rm origin_
+* _Add your own remote repository by typing:  $ git remote add (location nickname) followed by your repository's URL_
+* _Access your copied files wherever you prefer to code! You can do this by typing in your terminal:  $ code ._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+## Specifications
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No Known Bugs_
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Copyright (c) 2021 **Sage Sypert, James Wyn, Austin Landis, Diego Salazar, Olha Hizhytska**
+
+*This software is licensed under the MIT license.*
 
 ## Contact Information
 
-_{Add your contact information here.}_
+Sage Sypert <sage.sypert@gmail.com>, James Wyn <thisisjameswyn@gmail.com>, Austin Landis <austinlandiscode@gmail.com>, Diego Salazar <salazardiego343@gmail.com>, Olha Hizhytska <olgainfotech@gmail.com>
