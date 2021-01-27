@@ -49,12 +49,20 @@ Player.prototype.diceRoll = function() {
 // Creates two players
 let playerOne = new Player("Player One");
 let playerTwo = new Player("Player Two");
-
+let currentPlayer = playerOne;
 player1 or player2
 
-if(player == playerOne)  {
-  player = playerTwo;
-}
+// if(player == playerOne)  {
+//   player = playerTwo;
+// }
 
-player.diceRoll;
+// player.diceRoll;
+
+$(document).ready(function() {
+  $("#").click(function(event){
+    event.preventDefault();
+      
+    
+  });
+});
 
